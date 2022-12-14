@@ -57,7 +57,7 @@ $(document).ready(function() {
   
       /* operación */
       if(!RegExp_Usuario.test(Value_Usuario)){
-        salida_Usuario.text("No es válido");
+        salida_Usuario.text(`No es válido. Por favor ingrese un nombre de usuario + "_". Ejemplo: "Kenyi_"`);
         return false;
       } else if (!RegExp_Nombre.test(Value_Nombre)){
         salida_Nombre.text("No es válido");
