@@ -34,7 +34,7 @@ $(document).ready(function() {
       /* Nombre */
       let Value_Nombre = nombre.val();
       salida_Nombre.text("");
-      let RegExp_Nombre = /^[A-Z]{1}[a-z]*([\s]?[A-Z]{1}[a-z]*)*$/;
+      let RegExp_Nombre = /^[A-ZÑ]{1}[a-zñ]*([\s]?[A-ZÑ]{1}[a-zñ]*)*$/;
 
       /* Correo */
       let ValueCorreo = correo.val();
